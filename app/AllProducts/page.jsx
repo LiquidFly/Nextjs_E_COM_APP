@@ -95,7 +95,7 @@ function AllProductPage() {
                 <label className="label cursor-pointer">
                   <span className="label-text hover:font-bold font-semibold text-3xl">
                     <button
-                      className=""
+                      className="  shadow-2xl shadow-white px-6 py-2 "
                       onClick={() => handleFilteredBtns(category.toLowerCase())}
                     >
                       {category}
